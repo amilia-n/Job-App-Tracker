@@ -1,0 +1,29 @@
+table {
+  border: 1px solid lightgray;
+}
+
+tbody {
+  border-bottom: 1px solid lightgray;
+}
+
+th {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 2px 4px;
+}
+
+tfoot {
+  color: gray;
+}
+
+tfoot th {
+  font-weight: normal;
+}
+.hyperlink {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #a0a0a0;
+}
+td a:hover .hyperlink {
+  color: #a0a0a0c1;
+}
