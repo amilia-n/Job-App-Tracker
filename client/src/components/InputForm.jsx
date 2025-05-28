@@ -21,7 +21,6 @@ function AddForm({ setData }) {
       companyName: e.target.elements.companyName.value,
       jobTitle: e.target.elements.jobTitle.value,
       dateApplied: e.target.elements.dateApplied.value,
-      status: e.target.elements.status.value,
       jobLink: e.target.elements.jobLink.value,
       followUpDate: followUpDate.toISOString().split("T")[0],
       status: "Submitted", 
