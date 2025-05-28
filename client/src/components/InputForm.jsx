@@ -23,7 +23,7 @@ function AddForm({ setData }) {
       dateApplied: e.target.elements.dateApplied.value,
       jobLink: e.target.elements.jobLink.value,
       followUpDate: followUpDate.toISOString().split("T")[0],
-      status: "Submitted", 
+      status: "Submitted",
       notes: e.target.elements.notes.value,
     };
 
@@ -55,7 +55,7 @@ function AddForm({ setData }) {
         />
         <input type="url" name="jobLink" placeholder="Job Posting Link" />
         <textarea name="notes" placeholder="Notes" rows="3"></textarea>
-        <button type="Submit">Add Job App</button>
+        <button type="Submit">Add</button>
       </form>
     </div>
   );
